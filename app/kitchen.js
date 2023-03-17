@@ -14,7 +14,7 @@ const KitchenHomePage = () => {
     <View style={styles.container}>
       <View style={styles.header}>
         <View>
-          <Text style={styles.title}>BedRoom</Text>
+          <Text style={styles.title}>Kitchen</Text>
           <Text style={styles.subtitle}>Active</Text>
         </View>
         <Pressable onPress={() => router.back()}>

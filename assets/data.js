@@ -1,6 +1,6 @@
 export default [
     {
-        name:"Finder",
+        name:"Home",
         icon:"home-search",
         href:"/"
     },
