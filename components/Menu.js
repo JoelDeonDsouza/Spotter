@@ -1,4 +1,6 @@
-import {  Text, View, StyleSheet } from "react-native";
+import {  Text, View, StyleSheet, Pressable } from "react-native";
+// linking //
+import  {Link} from "expo-router";
 // icons //
 import {
     MaterialCommunityIcons,
@@ -8,7 +10,8 @@ import {
 
 const Menu = ({item}) => {
   return (
-    <View style={styles.homeFeature}>
+    <Link href={item.href} asChild>
+       <Pressable style={styles.homeFeature}>
       <MaterialCommunityIcons name={item.icon} size={28} color="#B9F3E4" />
       <Text style={styles.homeFeatureText}>{item.name}</Text>
       <AntDesign
@@ -17,7 +20,8 @@ const Menu = ({item}) => {
         color="#B9F3E4"
         style={{ marginLeft: "auto" }}
       />
-    </View>
+    </Pressable>
+    </Link>
   );
 };
 
