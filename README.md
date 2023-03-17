@@ -1,15 +1,18 @@
-# Expo Router Example
+# Spotter
+## Appendix
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+A react-native app which Help user feed tools and file into the app, So it can be located back in the time of need.
+## Demo
+![Home](https://i.ibb.co/CQRrZ7X/home.jpg)
+![Bedroom](https://i.ibb.co/HNdnvM4/bed.jpg)
+![Kitchen](https://i.ibb.co/VJWrRkB/kitchen.jpg)
+## Installation
 
-## 🚀 How to use
+Install file https://github.com/JoelDeonDsouza/Spotter.git
 
-```sh
-npx create-react-native-app -t with-router
+```bash
+  npm install spotter
+  cd spotter
+  npm install
 ```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
+    
