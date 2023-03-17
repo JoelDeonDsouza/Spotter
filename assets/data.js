@@ -7,11 +7,11 @@ export default [
     {
         name:"Bedroom",
         icon:"bed-double",
-        href:"/"
+        href:"/bedroom"
     },
     {
         name:"Kitchen",
         icon:"food-apple-outline",
-        href:"/"
+        href:"/kitchen"
     }
 ]
