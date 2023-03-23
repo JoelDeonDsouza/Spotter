@@ -6,13 +6,29 @@ A react-native app which Help user feed tools and file into the app, So it can b
 ![Home](https://i.ibb.co/CQRrZ7X/home.jpg)
 ![Bedroom](https://i.ibb.co/HNdnvM4/bed.jpg)
 ![Kitchen](https://i.ibb.co/VJWrRkB/kitchen.jpg)
-## Installation
 
-Install file https://github.com/JoelDeonDsouza/Spotter.git
+## Run Locally
+
+Clone the project
 
 ```bash
-  npm install spotter
-  cd spotter
+  git clone https://github.com/JoelDeonDsouza/Spotter.git
+```
+
+Go to the project directory
+
+```bash
+  cd Spotter
+```
+
+Install dependencies
+
+```bash
   npm install
 ```
-    
+
+Start the server
+
+```bash
+  npm run start
+```
